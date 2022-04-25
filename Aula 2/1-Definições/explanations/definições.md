@@ -18,7 +18,7 @@
 
 - **Chave Primária (Primary Key)**: Se um campo ou mais forem chaves primárias, as combinações dos valores destes campos não podem se repetir em uma tabela. Funcionam como um "identificador" para a tabela.
 
-- **Chave Estrangeira (Foreign Key)**: Uma chav eestrangeira permite que diferentes tabelas dentro de um banco de dados possam ter informações relacionadas, garantindo integridade ao banco de dados.
+- **Chave Estrangeira (Foreign Key)**: Uma chav eestrangeira permite que diferentes tabelas dentro de um banco de dados possam ter informações relacionadas, garantindo integridade ao banco de dados. Estabelece um relacionamento de uma tabela com a chave primária de outra tabela. A partir disto, conseguimos saber quais campos estão relacionados entre as tabelas.
 
 - **Índices**: Campo destinado a encontrar as informações no banco de dados de forma mais rápida. Quando criamos chaves primárias ou chaves estrangeiras, de forma implícita o banco de dados torna aquelas chaves campos índices para otimizar a busca por valores específicos.
 
