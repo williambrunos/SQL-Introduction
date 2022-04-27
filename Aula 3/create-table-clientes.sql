@@ -1,5 +1,4 @@
-CREATE TABLE TABELA_CLIENTES
-(
+CREATE TABLE TABELA_CLIENTES (
 CPF VARCHAR(11), /*Apenas com números, sem pontos ou hífens*/
 NOME VARCHAR(100),
 ENDERECO_RUA VARCHAR(150),
@@ -11,5 +10,4 @@ IDADE SMALLINT,tabela_clientes
 SEXO VARCHAR(1), /*M ou F*/
 LIMITE_CREDITO FLOAT,
 VOLUME_MINIMO_COMPRAS FLOAT,
-JA_REALIZOU_PRIMEIRA_COMPRA BIT /* 1 -> já realizou, 0 -> não realizou*/
-);
+JA_REALIZOU_PRIMEIRA_COMPRA BIT); /* 1 -> já realizou, 0 -> não realizou*/
